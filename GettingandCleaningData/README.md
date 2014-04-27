@@ -21,7 +21,7 @@ The R script called run_analysis.R that does the following.
 >+ Merges the training and the test sets to create one data set.
 
 >+ Extracts only the measurements on the mean and standard deviation for each measurement by
->>+ using colnames, %in% and grep (HARDatMeanStds)
+>>+ using colnames, %in% and grep
 
 >+ Uses descriptive activity names to name the activities in the data set by
 >>+ using ifelse and changing 1:6 to the walking:laying using the activity dataset (activity_lables.txt) 
@@ -32,7 +32,7 @@ The R script called run_analysis.R that does the following.
 >+ Creates a second, independent tidy data set with the average of each variable for each 
 >>+ activity and each subject using a melt and cast 
 
-> Save tidy dataset
+>+ Save tidy dataset
 
 The independent tidy data set is called "Tidy_HAR_data.txt"
 
