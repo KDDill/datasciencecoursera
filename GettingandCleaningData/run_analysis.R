@@ -54,6 +54,7 @@ NewColnames <- gsub("[.]", "", NewColnames)
 NewColnames <- gsub("BodyBody", "Body", NewColnames)
 colnames(HARDatMeanStds) <- NewColnames
 
+# Creates a tidy data set with the average of each variable for each activity and each subject
 tidymelt <-melt(HARDatMeanStds, c("Subject", "Activity", "ActivityNum"))
 tidycast <-cast(tidymelt, Subject + Activity + ActivityNum ~ variable, mean)
 tidycast <- tidycast[order(tidycast$Subject,tidycast$ActivityNum),]
