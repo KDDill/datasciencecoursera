@@ -1,4 +1,4 @@
-## Data Dictionary for tidy Human Activity Recognition (HAR) using Smartphones Dataset 
+## Data Dictionary for tidy Dataset (Tidy_HAR_data.txt) 
 
 Subject
 > Group of 30 volunteers within an age bracket of 19-48 years
