@@ -5,12 +5,12 @@ Subject
 
 Activity
 > Transformed the Activity variable from 1:6 to more descriptive activity names
-> WALKING
-> WALKING_UPSTAIRS
-> WALKING_DOWNSTAIRS
-> SITTING
-> STANDING
-> LAYING
+>+ 	WALKING
+>+ 	WALKING_UPSTAIRS
+>+	WALKING_DOWNSTAIRS
+>+	SITTING
+>+	STANDING
+>+	LAYING
 
 Note: All Features are normalized and bounded within [-1,1].
 
