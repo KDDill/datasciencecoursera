@@ -13,6 +13,7 @@ Activity
 >+	LAYING
 
 Note: All Features are normalized and bounded within [-1,1].
+A summary (Min, 1st Qu. (25%), Median, Mean, 3rd Qu (75%), Max) is given for all 66 features 
 
 TimeBodyAccmeanX
 > mean accelerometer time of the body in the x direction 
